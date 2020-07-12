@@ -1,0 +1,78 @@
+html {
+    background-color: rgb(250, 255, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #249ffd;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 5%;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+input[type=text]:focus {
+    border: 1px solid #249ffd;
+}
+
+#dl-btn {
+    padding: 9px;
+}
+
+#main-content {
+    background-color: #fff;
+    padding-bottom: 5vh;
+    margin: 0 22vh 25vh 22vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#main-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#box {
+    position: relative;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#box img {
+    width: 100%;
+}
+
+#text {
+    position: absolute;
+    top: 11%;
+    right: 10%;
+    height: 20%;
+    writing-mode: vertical-rl;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1200px) {
+    #main-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #box {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
